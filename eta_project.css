@@ -1,0 +1,192 @@
+:root{
+    --blue: #00b7ff;
+}
+
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background: url(https://images8.alphacoders.com/608/thumb-1920-608535.png), url(https://images.alphacoders.com/561/thumb-1920-561442.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200vh;
+    background-size: cover;
+    background-position: center;
+}
+
+body .navigatoreta{
+    color: rgb(0, 225, 255);
+    background-color: rgb(163, 184, 47);
+    height: 80px;
+    display: flex;
+    padding: 0 10%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Times New Roman', Times, serif;
+    list-style: none;
+    box-shadow: 0 4px 8px 0 rgb(55, 0, 255);
+}
+
+body .navigatoreta h1 img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+body .menu-navigator{
+    display: flex;
+    gap: 35px;
+    font-family: 'Merriweather', serif;
+}
+
+body img{
+    width: 25px;
+}
+
+.bioeta{
+    display: flex;
+    padding: 20px 5px;
+    border-radius: 15px;
+    margin-top: 20px;
+    background: url(https://images.alphacoders.com/522/thumb-1920-522959.jpg);
+    width: 75%;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    color: rgb(0, 255, 42);
+}
+
+.bioeta div{
+    width: 80%;
+    display: flex;
+    align-self: flex-start;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.bioeta h1{
+    font-size: 40px;
+    width: 360px;
+    margin: 0 0;
+}
+
+.bioeta p{
+    font-size: 25px;
+    color: var(--blue);
+    margin: 10px 200px 0 30px;
+}
+
+.bioeta img{
+    width: 35%;
+    height: 250px;
+    align-self: center;
+}
+
+.biomore{
+    display: flex;
+    padding: 20px 5px;
+    border-radius: 15px;
+    margin: 0 22%;
+    margin-top: 20px;
+    background: url(https://images5.alphacoders.com/387/thumb-1920-387546.jpg);
+    width: 77.2%;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    color: rgb(0, 255, 42);
+    flex-direction: row-reverse;
+    text-align: end;
+}
+
+.biomore div{
+    width: 80%;
+    display: flex;
+    align-self: flex-start;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.biomore h2{
+    font-size: 40px;
+    width: 360px;
+    align-self: flex-end;
+    margin: 0 0;
+}
+
+.biomore p{
+    font-size: 25px;
+    color: var(--blue);
+    margin: 30px 10px 0 200px;
+}
+
+.biomore img{
+    width: 35%;
+    height: 250px;
+    align-self: center;
+}
+
+.selector{
+    min-height: 400px;
+    margin: 20px 0;
+    padding: 0 10%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    background: url(https://images2.alphacoders.com/559/thumb-1920-559508.jpg);
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.selector .card{
+    background: url(https://images5.alphacoders.com/559/thumb-1920-559503.jpg);
+    width: 95%;
+    height: 63vh;
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+}
+
+.card{
+    border-radius: 10px;
+}
+
+.card:hover{
+    box-shadow: 0 0 15px 0 rgb(0, 217, 255);
+    cursor: pointer;
+}
+
+.card img{
+    object-fit: fill;
+    height: 180px;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.card .card-body{
+    padding: 10px;
+}
+
+.card h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin: 0 -5px 0 0;
+    color: #01ffff;
+    text-align: center;
+}
+
+.card p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+footer{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+    color: red;
+    margin: -20px 0;
+}
